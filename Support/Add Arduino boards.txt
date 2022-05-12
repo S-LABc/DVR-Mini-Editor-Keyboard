@@ -1,0 +1,39 @@
+###################### Mini Editor Keyboard DFU ########################################
+
+MEK_DFU.name=Mini Editor Keyboard (DFU)
+
+MEK_DFU.build.variant=generic_stm32f103c
+MEK_DFU.build.core=maple
+MEK_DFU.build.ldscript=ld/bootloader_20.ld
+MEK_DFU.build.f_cpu=72000000L
+MEK_DFU.build.board=GENERIC_STM32F103C
+MEK_DFU.build.vect=VECT_TAB_ADDR=0x8002000
+MEK_DFU.build.cpu_flags=-DMCU_STM32F103CB
+MEK_DFU.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG -DGENERIC_BOOTLOADER
+
+MEK_DFU.upload.tool=maple_upload
+MEK_DFU.upload.protocol=maple_dfu
+MEK_DFU.upload.maximum_size=120832
+MEK_DFU.upload.maximum_data_size=20480
+MEK_DFU.upload.usbID=1EAF:0003
+MEK_DFU.upload.altID=0
+MEK_DFU.upload.file_type=bin
+
+###################### Mini Editor Keyboard ST-Link ########################################
+
+MEK_STLINK.name=Mini Editor Keyboard (ST-Link)
+
+MEK_STLINK.build.variant=generic_stm32f103c
+MEK_STLINK.build.core=maple
+MEK_STLINK.build.ldscript=ld/jtag.ld
+MEK_STLINK.build.f_cpu=72000000L
+MEK_STLINK.build.board=GENERIC_STM32F103C
+MEK_STLINK.build.vect=VECT_TAB_ADDR=0x8000000
+MEK_STLINK.build.cpu_flags=-DMCU_STM32F103CB
+MEK_STLINK.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG -DGENERIC_BOOTLOADER
+
+MEK_STLINK.upload.tool=stlink_upload
+MEK_STLINK.upload.protocol=STLink
+MEK_STLINK.upload.maximum_size=129024
+MEK_STLINK.upload.maximum_data_size=20480
+MEK_STLINK.upload.file_type=bin

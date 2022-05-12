@@ -1,0 +1,26 @@
+Номер клавиши	Номер ячейки		Допустимо назначить						Назначено по умолчанию				Номер инструмента
+key1			tool_number[0]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_UNDO							1
+key2			tool_number[1]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_SNAPPING   					2
+key3			tool_number[2]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_CINEMA_VIEWER					3
+key4			tool_number[3]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_INSERT							4
+key5			tool_number[4]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_APPEND_TO_END_OF_TIMELINE		5
+key6			tool_number[5]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_RIPPLE_OVERWRITE 				6
+key7			tool_number[6]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_FIT_TO_FILL					7
+key8			tool_number[7]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_PLACE_ON_TOP					8
+key9			tool_number[8]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_REPLACE						9
+key10			tool_number[9]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_MARK_IN						10
+key11			tool_number[10]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_ADD_MARKER						11
+key12			tool_number[11]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_MARK_OUT						12
+key13			tool_number[12]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_RESIZE_IN						13
+key14			tool_number[13]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_RESIZE_OUT						14
+key15			tool_number[14]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_ROLL							15
+key16			tool_number[15]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_MOVE							16
+key17			tool_number[16]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_SLIDE							17
+key18			tool_number[17]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_SLIP            				18
+key19			tool_number[18]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_SOURCE_TIMELINE_VIEWER			19
+key20			tool_number[19]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_PROJECT_SETTINGS				20
+key21			tool_number[20]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_SOURCE_CLIP_TAPE				21
+key22			tool_number[21]		Только SHUTTLE, JOG, SCROLL				TOOL_WHEEL_SHUTTLE					22
+key23			tool_number[22]		Только SHUTTLE, JOG, SCROLL				TOOL_WHEEL_JOG   					23
+key24			tool_number[23]		Только SHUTTLE, JOG, SCROLL				TOOL_WHEEL_SCROLL					24
+Key25			tool_number[24]		Любой, кроме SHUTTLE, JOG, SCROLL		TOOL_PAUSE_START_PLAYBACK			25

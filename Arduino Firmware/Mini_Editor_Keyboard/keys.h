@@ -1,0 +1,51 @@
+#pragma once
+
+/**
+ * Расширение набора кодов клавиш
+ * Основные https://www.arduino.cc/en/Reference/KeyboardModifiers
+ * Таблица ASCII https://www.ascii-code.com/
+ */
+enum KeysASCII {
+  SPACE           = 0x20,
+  COMMA           = 0x2C,
+  HYPHEN          = 0x2D,
+  SLASH           = 0x2F,
+  PERIOD          = 0x2E,
+  NUMBER_ONE      = 0x31,
+  NUMBER_TWO      = 0x32,
+  NUMBER_THREE    = 0x33,
+  NUMBER_FOUR     = 0x34,
+  NUMBER_FIVE     = 0x35,
+  NUMBER_SIX      = 0x36,
+  NUMBER_SEVEN    = 0x37,
+  NUMBER_EIGHT    = 0x38,
+  NUMBER_NINE     = 0x39,
+  EQUALS          = 0x3D,
+  OPENING_BRACKET = 0x5B,
+  BACKSLASH       = 0x5C,
+  CLOSING_BRACKET = 0x5D,
+  LOWERCASE_A     = 0x61,
+  LOWERCASE_B     = 0x62,
+  LOWERCASE_C     = 0x63,
+  LOWERCASE_D     = 0x64,
+  LOWERCASE_E     = 0x65,
+  LOWERCASE_G     = 0x67,
+  LOWERCASE_H     = 0x68,
+  LOWERCASE_I     = 0x69,
+  LOWERCASE_J     = 0x6A,
+  LOWERCASE_K     = 0x6B,
+  LOWERCASE_L     = 0x6C,
+  LOWERCASE_M     = 0x6D,
+  LOWERCASE_N     = 0x6E,
+  LOWERCASE_O     = 0x6F,
+  LOWERCASE_P     = 0x70,
+  LOWERCASE_Q     = 0x71,
+  LOWERCASE_R     = 0x72,
+  LOWERCASE_S     = 0x73,
+  LOWERCASE_T     = 0x74,
+  LOWERCASE_U     = 0x75,
+  LOWERCASE_V     = 0x76,
+  LOWERCASE_X     = 0x78,
+  LOWERCASE_Y     = 0x79,
+  LOWERCASE_Z     = 0x7A,
+};

@@ -1,0 +1,159 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Programmer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="cmbKey1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Undo</Value>
+    </Setting>
+    <Setting Name="cmbKey2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Snapping</Value>
+    </Setting>
+    <Setting Name="cmbKey3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cinema Viewer</Value>
+    </Setting>
+    <Setting Name="cmbKey4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Insert</Value>
+    </Setting>
+    <Setting Name="cmbKey5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Append to End of Timeline</Value>
+    </Setting>
+    <Setting Name="cmbKey6" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ripple Overwrite</Value>
+    </Setting>
+    <Setting Name="cmbKey7" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Fit to Fill</Value>
+    </Setting>
+    <Setting Name="cmbKey8" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Place on Top</Value>
+    </Setting>
+    <Setting Name="cmbKey9" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Replace</Value>
+    </Setting>
+    <Setting Name="cmbKey10" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mark In</Value>
+    </Setting>
+    <Setting Name="cmbKey11" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Add Marker</Value>
+    </Setting>
+    <Setting Name="cmbKey12" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mark Out</Value>
+    </Setting>
+    <Setting Name="cmbKey13" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Resize In</Value>
+    </Setting>
+    <Setting Name="cmbKey14" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Resize Out</Value>
+    </Setting>
+    <Setting Name="cmbKey15" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Roll</Value>
+    </Setting>
+    <Setting Name="cmbKey16" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Move</Value>
+    </Setting>
+    <Setting Name="cmbKey17" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Slide</Value>
+    </Setting>
+    <Setting Name="cmbKey18" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Slip</Value>
+    </Setting>
+    <Setting Name="cmbKey19" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Source/Timeline Viewer</Value>
+    </Setting>
+    <Setting Name="cmbKey20" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Project Settings</Value>
+    </Setting>
+    <Setting Name="cmbKey21" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Source Clip/Tape</Value>
+    </Setting>
+    <Setting Name="cmbKey22" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Shuttle</Value>
+    </Setting>
+    <Setting Name="cmbKey23" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Jog</Value>
+    </Setting>
+    <Setting Name="cmbKey24" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Scroll</Value>
+    </Setting>
+    <Setting Name="cmbKey25" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Pause/Start Playback</Value>
+    </Setting>
+    <Setting Name="language" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Russian</Value>
+    </Setting>
+    <Setting Name="cmbColor1" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor2" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor3" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor4" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor5" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor6" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor7" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor8" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor9" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor10" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor11" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor12" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor13" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor14" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor15" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor16" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor17" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor18" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor19" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor20" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor21" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor22" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor23" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor24" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="cmbColor25" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

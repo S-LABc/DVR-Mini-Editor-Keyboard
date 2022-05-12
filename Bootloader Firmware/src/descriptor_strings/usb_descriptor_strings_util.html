@@ -1,0 +1,49 @@
+<html>
+<script>
+var bootloader_name = "Mini Editor Keyboard";
+var usb_vendor      = "S-LAB";
+var usb_product     = "Mini Editor Keyboard";
+var usb_serial      = "01";
+
+var def_vendor  = "#define USB_VENDOR";
+var def_product = "#define USB_PRODUCT";
+var def_serial  = "#define USB_SERIAL";
+var def_alt     = "#define ALT";
+function convertUSB(txt, def)
+{
+    var txt2 = def + "_STR_LEN 0x" + (txt.length * 2  + 2).toString(16).toUpperCase() + "<br/>" + def + "_MSG_STR ";
+    for (var i = 0; i < txt.length; i++)
+    {
+        txt2 += "'" + txt[i] + "',0,";
+    }
+    return txt2.substring(0, txt2.length - 1) + "<br/>";
+}
+function convertALT(txt, def, id)
+{
+    var txt2 = def + id + "_STR_LEN 0x" + (txt.length * 2  + 2).toString(16).toUpperCase() + "<br/>#define ALT" + id + "_MSG_STR ";
+    for (var i = 0; i < txt.length; i++)
+    {
+        txt2 += "'" + txt[i] + "',0,";
+    }
+    return txt2.substring(0, txt2.length - 1) + "<br/>";
+}
+
+document.write("<pre>");
+document.write("<b>1. Откройте usb_descriptor_strings_util.html в текстовом редакторе</b>\n");
+document.write("<b>2. Измените значения переменных: bootloader_name, usb_vendor, usb_product, usb_serial</b>\n\n");
+
+document.write("bootloader_name - " + bootloader_name + "\n");
+document.write("usb_vendor      - " + usb_vendor + "\n");
+document.write("usb_product     - " + usb_product + "\n");
+document.write("usb_serial      - " + usb_serial + "\n\n");
+
+document.write("<b>3. Замените строки в файле config.h на новые</b>\n\n");
+
+document.write(convertUSB(usb_vendor, def_vendor) + "<br/>");
+document.write(convertUSB(usb_product, def_product) + "<br/>");
+document.write(convertUSB(usb_serial, def_serial) + "<br/>");
+document.write(convertALT(bootloader_name + " | FLASH  0x8002000 R/W", def_alt, 0) + "<br/>");
+document.write(convertALT(bootloader_name + " | EEPROM 0x801F800 R/W", def_alt, 1) + "<br/>");
+document.write("</pre>");
+</script>
+</html>

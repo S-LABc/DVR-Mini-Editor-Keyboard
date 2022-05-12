@@ -1,0 +1,2 @@
+make mini_editor_keyboard
+pause

@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BINARY_BUFFER_NAME" xml:space="preserve">
+    <value>binary_buffer</value>
+    <comment>Имя промежуточного файла для чтения через dfu-util</comment>
+  </data>
+  <data name="BINARY_FILE_EXTENSION" xml:space="preserve">
+    <value>.bin</value>
+    <comment>Расширение файлов: загрузчика, прошивки, инструментов</comment>
+  </data>
+  <data name="BOOTLOADER_NAME" xml:space="preserve">
+    <value>bootloader</value>
+    <comment>Имя файла загрузчика</comment>
+  </data>
+  <data name="CSV_FILE_EXTANSION" xml:space="preserve">
+    <value>.csv</value>
+    <comment>Расширение файлов со списком инструментов и цветов колпачков</comment>
+  </data>
+  <data name="CSV_SEPARATOR" xml:space="preserve">
+    <value>;</value>
+    <comment>Разделитель в файле списка инструментов </comment>
+  </data>
+  <data name="DEFAULT_LAYOUT_FILE_NAME" xml:space="preserve">
+    <value>default_layout</value>
+    <comment>Имя файла с ракладкой по умолчанию</comment>
+  </data>
+  <data name="EEPROM_NAME" xml:space="preserve">
+    <value>eeprom</value>
+    <comment>Имя файла инструментов</comment>
+  </data>
+  <data name="FIRMWARE_NAME" xml:space="preserve">
+    <value>firmware</value>
+    <comment>Имя файла прошивки</comment>
+  </data>
+  <data name="FLASH_NAME" xml:space="preserve">
+    <value>flash</value>
+    <comment>Имя файл прошивки всей памяти контроллера: загрузчик, прошивка, инструменты</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Icon_MEK_Configurator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon MEK Configurator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_MEK_Configurator1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon MEK Configurator.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LAYOUT_FILE_EXTENSION" xml:space="preserve">
+    <value>.mek</value>
+    <comment>Расширение файла раскладки клавиатуры</comment>
+  </data>
+  <data name="LAYOUT_SEPARATOR" xml:space="preserve">
+    <value>:</value>
+    <comment>Разделитель в файле раскладки клавиатуры</comment>
+  </data>
+  <data name="NAME_DFU_MODE" xml:space="preserve">
+    <value>"Mini Editor Keyboard DFU"</value>
+    <comment>Имя устройства при установленном драйвере</comment>
+  </data>
+  <data name="PATH_BINARY" xml:space="preserve">
+    <value>bin/</value>
+    <comment>Каталог с файлами: загрузчика, прошивки, инструментов</comment>
+  </data>
+  <data name="PATH_CONFIG" xml:space="preserve">
+    <value>cfg/</value>
+    <comment>Каталог с файлами конфигураций</comment>
+  </data>
+  <data name="PATH_CONFIG_COLORS" xml:space="preserve">
+    <value>cfg/colors/</value>
+    <comment>Путь к файлам с цветами колпачков клавиш</comment>
+  </data>
+  <data name="PATH_CONFIG_TOOLS" xml:space="preserve">
+    <value>cfg/tools/</value>
+    <comment>Путь к файлам с инструментами клавиш</comment>
+  </data>
+  <data name="PATH_DFU_UTIL" xml:space="preserve">
+    <value>win\utils\dfu-util-0.9-win64\dfu-util.exe</value>
+    <comment>Путь к каталогу с dfu-util</comment>
+  </data>
+  <data name="PATH_DRIVER_DFU" xml:space="preserve">
+    <value>win/drivers/dfu</value>
+    <comment>Путь к каталогу с фдрайвером DFU</comment>
+  </data>
+  <data name="PATH_DRIVER_ST_LINK_64" xml:space="preserve">
+    <value>win\drivers\st-link\dpinst_amd64.exe</value>
+    <comment>Путь к драйверу ST-LINK amd64</comment>
+  </data>
+  <data name="PATH_DRIVER_ST_LINK_86" xml:space="preserve">
+    <value>win\drivers\st-link\dpinst_x86.exe</value>
+    <comment>Путь к драйверу ST-LINK x86</comment>
+  </data>
+  <data name="PATH_ST_LINK" xml:space="preserve">
+    <value>win\utils\stlink\ST-LINK_CLI.exe</value>
+    <comment>Путь к каталогу с ST-LINK</comment>
+  </data>
+  <data name="PATH_WDI" xml:space="preserve">
+    <value>win\utils\wdi\wdi-simple.exe</value>
+    <comment>Путь к генератору и установщику драйвера DFU</comment>
+  </data>
+  <data name="PROJECT_WEB_LINK" xml:space="preserve">
+    <value>https://github.com/S-LABc/DVR-Mini-Editor-Keyboard</value>
+    <comment>Ссылка на проект на GitHub</comment>
+  </data>
+</root>

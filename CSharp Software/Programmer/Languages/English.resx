@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="fd_binary_filter" xml:space="preserve">
+    <value>Binary file (*.bin)|*.bin</value>
+  </data>
+  <data name="fd_layout_filter" xml:space="preserve">
+    <value>Layout file (*.mek)|*.mek</value>
+  </data>
+  <data name="form_main_text" xml:space="preserve">
+    <value>Mini Editor Keyboard Configurator</value>
+  </data>
+  <data name="key_colors_list_name" xml:space="preserve">
+    <value>key_colors_en</value>
+  </data>
+  <data name="lable_color_text" xml:space="preserve">
+    <value>Color:</value>
+  </data>
+  <data name="lable_description_text" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="lable_keys_text" xml:space="preserve">
+    <value>Shortcut:</value>
+  </data>
+  <data name="lable_key_1" xml:space="preserve">
+    <value>Key 1</value>
+  </data>
+  <data name="lable_key_10" xml:space="preserve">
+    <value>Key 10</value>
+  </data>
+  <data name="lable_key_11" xml:space="preserve">
+    <value>Key 11</value>
+  </data>
+  <data name="lable_key_12" xml:space="preserve">
+    <value>Key 12</value>
+  </data>
+  <data name="lable_key_13" xml:space="preserve">
+    <value>Key 13</value>
+  </data>
+  <data name="lable_key_14" xml:space="preserve">
+    <value>Key 14</value>
+  </data>
+  <data name="lable_key_15" xml:space="preserve">
+    <value>Key 15</value>
+  </data>
+  <data name="lable_key_16" xml:space="preserve">
+    <value>Key 16</value>
+  </data>
+  <data name="lable_key_17" xml:space="preserve">
+    <value>Key 17</value>
+  </data>
+  <data name="lable_key_18" xml:space="preserve">
+    <value>Key 18</value>
+  </data>
+  <data name="lable_key_19" xml:space="preserve">
+    <value>Key 19</value>
+  </data>
+  <data name="lable_key_2" xml:space="preserve">
+    <value>Key 2</value>
+  </data>
+  <data name="lable_key_20" xml:space="preserve">
+    <value>Key 20</value>
+  </data>
+  <data name="lable_key_21" xml:space="preserve">
+    <value>Key 21</value>
+  </data>
+  <data name="lable_key_22" xml:space="preserve">
+    <value>Key 22</value>
+  </data>
+  <data name="lable_key_23" xml:space="preserve">
+    <value>Key 23</value>
+  </data>
+  <data name="lable_key_24" xml:space="preserve">
+    <value>Key 24</value>
+  </data>
+  <data name="lable_key_25" xml:space="preserve">
+    <value>Key 25</value>
+  </data>
+  <data name="lable_key_3" xml:space="preserve">
+    <value>Key 3</value>
+  </data>
+  <data name="lable_key_4" xml:space="preserve">
+    <value>Key 4</value>
+  </data>
+  <data name="lable_key_5" xml:space="preserve">
+    <value>Key 5</value>
+  </data>
+  <data name="lable_key_6" xml:space="preserve">
+    <value>Key 6</value>
+  </data>
+  <data name="lable_key_7" xml:space="preserve">
+    <value>Key 7</value>
+  </data>
+  <data name="lable_key_8" xml:space="preserve">
+    <value>Key 8</value>
+  </data>
+  <data name="lable_key_9" xml:space="preserve">
+    <value>Key 9</value>
+  </data>
+  <data name="lable_note_text" xml:space="preserve">
+    <value>Note:</value>
+  </data>
+  <data name="menu_check" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="menu_check_dfu" xml:space="preserve">
+    <value>Communication DFU</value>
+  </data>
+  <data name="menu_check_swd" xml:space="preserve">
+    <value>Communication SWD</value>
+  </data>
+  <data name="menu_driver" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="menu_driver_dfu" xml:space="preserve">
+    <value>Install DFU</value>
+  </data>
+  <data name="menu_driver_st_link" xml:space="preserve">
+    <value>Install SWD</value>
+  </data>
+  <data name="menu_export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="menu_export_all_flash" xml:space="preserve">
+    <value>All flash</value>
+  </data>
+  <data name="menu_export_bootloader" xml:space="preserve">
+    <value>Bootloader</value>
+  </data>
+  <data name="menu_export_firmware" xml:space="preserve">
+    <value>Firmware</value>
+  </data>
+  <data name="menu_export_tools" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="menu_import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="menu_import_all_flash" xml:space="preserve">
+    <value>All flash</value>
+  </data>
+  <data name="menu_import_bootloader" xml:space="preserve">
+    <value>Bootloader</value>
+  </data>
+  <data name="menu_import_firmware" xml:space="preserve">
+    <value>Firmware</value>
+  </data>
+  <data name="menu_import_tools" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="menu_language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="menu_layout" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="menu_layout_open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="menu_layout_restore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="menu_layout_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="menu_read" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="menu_read_all_flash" xml:space="preserve">
+    <value>All flash (SWD)</value>
+  </data>
+  <data name="menu_read_bootloader" xml:space="preserve">
+    <value>Bootloader (SWD)</value>
+  </data>
+  <data name="menu_read_firmware" xml:space="preserve">
+    <value>Firmware (DFU)</value>
+  </data>
+  <data name="menu_read_tools" xml:space="preserve">
+    <value>Tools (DFU)</value>
+  </data>
+  <data name="menu_write" xml:space="preserve">
+    <value>Write</value>
+  </data>
+  <data name="menu_write_all_flash" xml:space="preserve">
+    <value>All flash (SWD)</value>
+  </data>
+  <data name="menu_write_bootloader" xml:space="preserve">
+    <value>Bootloader (SWD)</value>
+  </data>
+  <data name="menu_write_firmware" xml:space="preserve">
+    <value>Firmware (DFU)</value>
+  </data>
+  <data name="menu_write_tools" xml:space="preserve">
+    <value>Tools (DFU)</value>
+  </data>
+  <data name="message_caption_error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="message_caption_information" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="message_caption_warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="message_change_language" xml:space="preserve">
+    <value>Language changed. The program will restart</value>
+  </data>
+  <data name="message_dfuutil_device_found" xml:space="preserve">
+    <value>The keyboard is detected in DFU mode!</value>
+  </data>
+  <data name="message_dfuutil_device_not_found" xml:space="preserve">
+    <value>No keyboard detected in DFU mode!</value>
+  </data>
+  <data name="message_dfuutil_read_firmware_done" xml:space="preserve">
+    <value>Firmware reading completed!</value>
+  </data>
+  <data name="message_dfuutil_read_tools_done" xml:space="preserve">
+    <value>Tools reading completed!</value>
+  </data>
+  <data name="message_dfuutil_write_firmware_done" xml:space="preserve">
+    <value>Firmware writing completed!</value>
+  </data>
+  <data name="message_dfuutil_write_tools_done" xml:space="preserve">
+    <value>Tools writing completed!</value>
+  </data>
+  <data name="message_dfu_error" xml:space="preserve">
+    <value>Failed to install keyboard driver</value>
+  </data>
+  <data name="message_dfu_success" xml:space="preserve">
+    <value>Keyboard driver installed successfully</value>
+  </data>
+  <data name="message_export_all_flash_success" xml:space="preserve">
+    <value>All flash file exported successfully!</value>
+  </data>
+  <data name="message_export_bootloader_success" xml:space="preserve">
+    <value>Bootloader file exported successfully!</value>
+  </data>
+  <data name="message_export_error" xml:space="preserve">
+    <value>Export failed!</value>
+  </data>
+  <data name="message_export_firmware_success" xml:space="preserve">
+    <value>Firmware file exported successfully!</value>
+  </data>
+  <data name="message_export_tools_success" xml:space="preserve">
+    <value>Tools file exported successfully!</value>
+  </data>
+  <data name="message_import_all_flash_success" xml:space="preserve">
+    <value>All flash file imported successfully!</value>
+  </data>
+  <data name="message_import_bootloader_success" xml:space="preserve">
+    <value>Bootloader file imported successfully!</value>
+  </data>
+  <data name="message_import_error" xml:space="preserve">
+    <value>Import failed!</value>
+  </data>
+  <data name="message_import_firmware_success" xml:space="preserve">
+    <value>Firmware file imported successfully!</value>
+  </data>
+  <data name="message_import_tools_success" xml:space="preserve">
+    <value>Tools file imported successfully!</value>
+  </data>
+  <data name="message_layout_error" xml:space="preserve">
+    <value>Failed to open the layout file!</value>
+  </data>
+  <data name="message_stlink_device_found" xml:space="preserve">
+    <value>The keyboard is detected SWD mode!</value>
+  </data>
+  <data name="message_stlink_device_not_found" xml:space="preserve">
+    <value>No keyboard detected in SWD mode!</value>
+  </data>
+  <data name="message_stlink_dump_all_flash_success" xml:space="preserve">
+    <value>All flash has been read successfully!</value>
+  </data>
+  <data name="message_stlink_dump_bootloader_success" xml:space="preserve">
+    <value>Bootloader read successfully!</value>
+  </data>
+  <data name="message_stlink_error" xml:space="preserve">
+    <value>Unknown ST-Link error</value>
+  </data>
+  <data name="message_stlink_st_link_not_found" xml:space="preserve">
+    <value>ST-Link programmer not found!</value>
+  </data>
+  <data name="message_stlink_write_all_flash_done" xml:space="preserve">
+    <value>All flash has been successfully written!</value>
+  </data>
+  <data name="message_stlink_write_bootloader_done" xml:space="preserve">
+    <value>Bootloader was written successfully!</value>
+  </data>
+  <data name="message_swd_error" xml:space="preserve">
+    <value>Failed to install ST-Link programmer driver</value>
+  </data>
+  <data name="message_swd_success" xml:space="preserve">
+    <value>ST-Link programmer driver successfully installed</value>
+  </data>
+  <data name="ofd_import" xml:space="preserve">
+    <value>Import file</value>
+  </data>
+  <data name="ofd_open" xml:space="preserve">
+    <value>Open file</value>
+  </data>
+  <data name="ofd_save" xml:space="preserve">
+    <value>Save file</value>
+  </data>
+  <data name="sfd_export" xml:space="preserve">
+    <value>Export file</value>
+  </data>
+  <data name="tools_list_name" xml:space="preserve">
+    <value>key_tools_en</value>
+  </data>
+</root>

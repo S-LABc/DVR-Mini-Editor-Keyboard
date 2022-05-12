@@ -1,0 +1,105 @@
+Сочетания ORIG 		Название EN 					Название RU 									Назначено ME
+
+←           		Frame Reverse 					На один кадр назад
+→					Frame Forward 					На один кадр вперед
+↑           		Previous Clip/Edit				Предыдущий клип/точка монтажа
+↓					Next Clip/Edit 					Следующий клип/точка монтажа
+, 					One Frame Left		 			На кадр влево
+. 					One Frame Right					На кадр вправо
+Space 				Pause/Start Playback 			Пауза/Начать воспроизведение
+Home				Timeline Start					Перейти к началу временной шкалы
+End					Timeline End					Перейти к концу временной шкалы
+Del					Ripple Delete					Удалить со сдвигом
+F9 					Insert 							Вставить
+F10					Overwrite						Перезаписать
+F11 				Replace 						Заменить
+F12 				Place on Top 					Разместить сверху
+l 					Play Forward 					Воспроизвести вперед
+j 					Play Reverse 					Воспроизвести назад
+k 					Stop 							Остановить
+q 					Source/Timeline Viewer 			Окно просмотра источника/временной шкалы
+p					Cinema Viewer					Режим окна просмотра кинотеатр
+n					Snapping						Прикрепление
+m					Add Marker						Добавить маркер
+x					Mark Clip						Отметить клип по входу и выходу
+r					Change Clip Speed				Изменить скорость клипа
+d					Enable Clip						Включить/выключить клип
+i 					Mark In 						Отметить вход
+o 					Mark Out 						Отметить выход
+v					Select Nearest Edit Point		Выбрать ближайшую точку редактирования
+h					Sync Bin						Синхроящик
+1					Cut to Angle 1					Вырезать на ракурс 1
+2					Cut to Angle 2					Вырезать на ракурс 2
+3					Cut to Angle 3					Вырезать на ракурс 3
+4					Cut to Angle 4					Вырезать на ракурс 4
+5					Cut to Angle 5					Вырезать на ракурс 5
+6					Cut to Angle 6					Вырезать на ракурс 6
+7					Cut to Angle 7					Вырезать на ракурс 7
+8					Cut to Angle 8					Вырезать на ракурс 8
+9					Cut to Angle 9					Вырезать на ракурс 9
+					Delete Gaps						Удалить промежутки								c
+Ctrl+\				Split Clip						Разделить клип
+Ctrl+/				Loop/Unloop						Зациклить/отпустить
+Ctrl+,				Preferences						Настройки программы
+Ctrl+a				Select All						Выделить все
+Ctrl+z				Undo 							Отменить
+Ctrl+d				Change Clip Duration			Изменить длительность клипа
+Ctrl+t				Add Transition					Добавить переход
+Ctrl+x				Cut								Вырезать
+Ctrl+c				Copy							Копировать
+Ctrl+v				Paste							Вставить
+Ctrl+s				Save Project					Сохранить проект
+Ctrl+q				Quit DaVinci Resolve			Выйти из программы
+Ctrl+i				Import Media					Импортировать медиафайлы
+Ctrl+n				New Timeline					Новая временная шкала
+Alt+i				Clear In						Стереть точку входа
+Alt+o				Clear Out						Стереть точку выхода
+Alt+x				Clear In and Out				Стереть точки входа и выхода
+Alt+m				Delete Marker					Удалить маркер
+Alt+t				Add Video Only Transition		Добавить переход только на видео
+Alt+e				Select Nearest Video Edit Point	Выбрать ближайшую точку редактирования видео
+Shift+← 			Second Reverse					На одну секунду назад
+Shift+→ 			Second Forward 					На одну секунду вперед
+Shift+,				Multiframe Left					Несколько кадров влево
+Shift+.				Multiframe Right				Несколько кадров вправо
+Shift+F10 			Ripple Overwrite 				Перезаписать со сдвигом
+Shift+F11 			Fit to Fill				 		Заполнить
+Shift+F12 			Append to End of Timeline 		Добавить в конец временной шкалы
+Shift+i				Go to In						Перейти ко входу
+Shift+o				Go to Out						Перейти к выходу
+Shift+k				Play Slow						Медленное воспроизведение
+Shift+l				Fast Forward					Перемотать вперед
+Shift+j				Fast Reverse					Перемотать назад
+Shift+q 			Source Clip/Tape 				Исходный клип/исходная кассета
+Shift+v				Select Nearest Clip/Gap			Выбрать ближайший клип/промежуток
+Shift+t 			Add Audio Only Transition		Добавить переход только на аудио
+Shift+c				Show Curve Editor				Показать/скрыть редактор кривых
+Shift+e				Select Nearest Audio Edit Point	Выбрать ближайшую точку редактирования аудио
+Shift+r				Freeze Frame					Стоп-кадр
+Shift+1				Project Manager					Управление проектами
+Shift+2				Switch to Page Media			Переключить на вкладку Media
+Shift+3				Switch to Page Cut				Переключить на вкладку Cut
+Shift+4				Switch to Page Edit				Переключить на вкладку Edit
+Shift+5				Switch to Page Fusion			Переключить на вкладку Fusion
+Shift+6				Switch to Page Color			Переключить на вкладку Color
+Shift+7				Switch to Page Fairlight		Переключить на вкладку Fairlight
+Shift+8				Switch to Page Deliver			Переключить на вкладку Deliver
+Shift+9				Project Settings				Настройки проекта
+					Resize In 						Изменить размер в точке входа					Shift+b
+					Resize Out 						Изменить размер в точке выхода					Shift+n
+					Roll 							Совместить										Shift+g
+					Move							Переместить										Shift+x
+					Slide							Сместить										Shift+y
+					Slip							Прокрутить скольжением							Shift+u
+Ctrl+Shift+,		Swap Clips Towards Left			Поменять местами клипы влево
+Ctrl+Shift+.		Swap Clips Towards Right		Поменять местами клипы вправо
+Ctrl+Shift+[		Riple Start to Playhead			Сдвинуть от начала до курсора воспроизведения
+Ctrl+Shift+]		Riple End to Playhead			Сдвинуть от конца до курсора воспроизведения
+Ctrl+Shift+z		Redo							Повторить
+Ctrl+Shift+c		Show Keyframe Editor			Показать/скрыть редактор ключевых кадров
+Ctrl+Shift+a		Deselect All					Отменить выбор всего
+Ctrl+Shift+s		Save Project As					Сохранить проект как
+Ctrl+Shift+l		Linked Selection				Связь компонентов
+Alt+Ctrl+-			Decrease Audio Level 1dB		Уменьшить уровень аудио на 1дБ
+Alt+Ctrl+=			Increase Audio Level 1dB		Увеличить уровень аудио на 1дБ
+Alt+Ctrl+k			Keyboard Customization			Настройка клавиатуры

@@ -1,0 +1,109 @@
+0;NONE;Ничего не делает;Назначается на клавиши, которыми не планируете пользоваться;—
+1;Undo;Undo the last action;—;Ctrl+Z
+2;Snapping;Управление привязкой;—;N
+3;Cinema Viewer;Развенуть окно предпросмотра во весь экран;—;P
+4;Insert;789;—;F9
+5;Append to End of Timeline;789;—;Shift+F12
+6;Ripple Overwrite;789;—;Shift+F10
+7;Fit to Fill;789;—;Shift+F11
+8;Place on Top;789;—;F12
+9;Replace;789;—;F11
+10;Mark In;789;—;I
+11;Add Marker;789;—;M
+12;Mark Out;789;—;O
+13;Resize In;789;—;Shift+B
+14;Resize Out;789;—;Shift+N
+15;Roll;789;—;Shift+G
+16;Move;789;—;Shift+X
+17;Slide;789;—;Shift+Y
+18;Slip;789;—;Shift+U
+19;Source/Timeline Viewer;789;—;Q
+20;Project Settings;Открыть окно настроект проекта;—;Shift+9
+21;Source Clip/Tape;789;—;Shift+Q
+22;Shuttle;Воспроизведение с измением скорости;Используется ручкой поиска;—
+23;Jog;Покадровое перемещение по временной шкале;Используется ручкой поиска;—
+24;Scroll;789;Используется ручкой поиска;—
+25;Pause/Start Playback;789;—;Space
+26;Play Revers;789;—;J
+27;Play Forward;789;—;L
+28;Go to In;789;—;Shift+I
+29;Go to Out;789;—;Shift+O
+30;Riple Start to Playhead;789;—;Ctrl+Shift+[
+31;Riple End to Playhead;789;—;Ctrl+Shift+]
+32;Previous Clip/Edit;789;—;↑
+33;Next Clip/Edit;789;—;↓
+34;Fast Reverse;789;—;Shift+J
+35;Fast Forward;789;—;Shift+L
+36;Frame Reverse;789;—;←
+37;Frame Forward;789;—;→
+38;One Frame Left;789;—;,
+39;One Frame Right;789;—;.
+40;Timeline Start;789;—;Home
+41;Timeline End;789;—;End
+42;Multiframe Left;789;—;Shift+,
+43;Multiframe Right;789;—;Shift+.
+44;Second Reverse;789;—;Shift+←
+45;Second Forward;789;—;Shift+→
+46;Change Clip Speed;789;—;
+47;Change Clip Duration;789;—;
+48;Show Curve Editor;789;—;
+49;Show Keyframe Editor;789;—;
+50;Select Nearest Video Edit Point;789;—;Alt+E
+51;Select Nearest Audio Edit Point;789;—;Shift+E
+52;Decrease Audio Level 1dB;Уменьшить уровень громкости клипа на 1dB;Необходимо выбрать клип. Используется вместе с ручкой поиска;Atl+Ctrl+-
+53;Increase Audio Level 1dB;Увеличить уровень громкости клипа на 1dB;Необходимо выбрать клип. Используется вместе с ручкой поиска;Atl+Ctrl+=
+54;Mark Clip;789;—;X
+55;Clear In;Очистить точку входа;—;Alt+I
+56;Clear Out;Очистить точку выхода;—;Alt+O
+57;Clear In and Out;Очистить точку входа и точку выхода;—;Alt+X
+58;Add Transition;789;—;
+59;Add Video Only Transition;789;—;
+60;Add Audio Only Transition;789;—;
+61;Select Nearest Clip/Gap;789;—;Shift+V
+62;Select Nearest Edit Point;789;—;V
+63;Project Manager;789;—;Shift+1
+64;Switch to Page Media;789;—;Shift+2
+65;Switch to Page Cut;789;—;Shift+3
+66;Switch to Page Edit;789;—;Shift+4
+67;Switch to Page Fusion;789;—;Shift+5
+68;Switch to Page Color;789;—;Shift+6
+69;Switch to Page Fairlight;789;—;Shift+7
+70;Switch to Page Deliver;789;—;Shift+8
+71;Cut to Angle 1;789;—;1
+72;Cut to Angle 2;789;—;2
+73;Cut to Angle 3;789;—;3
+74;Cut to Angle 4;789;—;4
+75;Cut to Angle 5;789;—;5
+76;Cut to Angle 6;789;—;6
+77;Cut to Angle 7;789;—;7
+78;Cut to Angle 8;789;—;8
+79;Cut to Angle 9;789;—;9
+80;Save Project;Сохранить проект;—;Ctrl+S
+81;Save Project As;Сохранить проект как;—;Ctrl+Shift+S
+82;Swap Clips Towards Left;Поменять местами клипы влевую сторону;—;
+83;Swap Clips Towards Right;Поменять местами клипы вправую сторону;—;
+84;Select All;789;—;Ctrl+A
+85;Deselect All;789;—;Ctrl+Shift+A
+86;Redo;Повторить отменённое действие;—;Ctrl+Shift+Z
+87;Delete Marker;789;—;Alt+M
+88;Ripple Delete;789;—;
+89;Overwrite;789;—;F10
+90;Split Clip;789;—;Ctrl+\
+91;Delete Gaps;789;—;C
+92;Stop;Остановить вопроизведение;—;K
+93;Play Slow;Замедлить воспроизведение;Работает, если воспроизведение начато;Shift+K
+94;Copy;Копировать;—;Ctrl+C
+95;Cut;Вырезать;—;Ctrl+X
+96;Paste;Вставить;—;Ctrl+V
+97;Enable Clip;Сделать клип активным или неактивным;—;
+98;Preferences;Открыть окно настроек программы;—;Ctrl+,
+99;Loop/Unloop;Зациклить воспроизведение или отпустить зацикливание;—;Ctrl+/
+100;Freeze Frame;Сделать стоп-кадр из клипа;Стоп-кадром будет кадр, отображаемый в окне просмотра;Shift+R
+101;Change Audio Level;789;—;
+102;Swap Clips;789;—;
+103;Linked Selection;Связать или отвязать аудиоконтейнер и видеоконтейнер клипа;—;Shift+Ctrl+L
+104;Keyboard Customization;Открыть окно настроек клавиатуры;—;Ctrl+Alt+K
+105;Quit DaVinci Resolve;Выйти из программы;—;Ctrl+Q
+106;New Timeline;Создать новую временную шкалу;—;Ctrl+N
+107;Import Media;Импортировать файлы;—;Ctrl+I
+108;Sync Bin;789;—;H

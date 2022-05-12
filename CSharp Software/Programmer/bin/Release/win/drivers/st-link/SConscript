@@ -1,0 +1,12 @@
+# vim: set syntax=python
+import os
+
+Import('env')
+Import('shared')
+Import('tools')
+
+this_name='stlink-usb-driver'
+this = shared[this_name]
+
+# Sources
+this.srcfiles = tools.FindTypeF(this.srcdir,[".git"])

@@ -1,0 +1,34 @@
+#   Name
+
+1.  Undo
+2.  Snapping
+3.  Cinema Viewer
+
+4.  Insert
+5.  Append To End Of Timeline
+6.  Ripple Overwrite
+7.  Fit To Fill
+8.  Place On Top
+9.  Replace
+ 
+10. Mark In
+11. Add Marker
+12. Mark Out
+
+13. Resize In
+14. Resize Out
+15. Roll
+
+16. Move
+17. Slide
+18. Slip
+
+19. Source Timeline Viewer
+20. Project Settings
+21. Source Clip Tape
+
+22. Shuttle
+23. Jog
+24. Scroll
+
+25. Pause Start Playback

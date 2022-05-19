@@ -2,6 +2,8 @@
 <p align="center"><img src="/keyboard_front_view.jpg"></p>
 
 * Проект USB клавиатуры для программы видео монтажа DaVinci Resolve. Проект не закончен из-за желания сделать клавиатуру более удобной. Можно [скачать отсюда архив](https://github.com/S-LABc/DVR-Mini-Editor-Keyboard/releases) с программой и всем необходимым для самостоятельного повторения. Работоспособность проверялась на Windows 10 x64
+* [Видео-инструкция](https://youtu.be/toALGh9qcjc)
+* Первая [попытка](https://github.com/S-LABc/STM32-davnci-resolve-editor-keyboard)
 
 ## Содержимое
 * В папке Altium Hardware находятся незавершенные файлы схемы, платы нет - не успел сделать

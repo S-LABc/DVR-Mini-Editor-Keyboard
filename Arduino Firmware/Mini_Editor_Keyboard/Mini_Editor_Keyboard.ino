@@ -23,10 +23,8 @@
  ** В скетче используются встроенные в ядро билиотеки: EEPROM.h, USBComposite.h, libmaple/iwdg.h
  * 
  ** Связь со мной:
- ** YouTube https://www.youtube.com/channel/UCbkE52YKRphgkvQtdwzQbZQ
- ** Telegram https://www.t.me/slabyt
- ** Telegram Channel https://www.t.me/t_slab
  ** GitHub https://github.com/S-LABc
+ ** Gmail - romansklyar15@gmail.com
  * 
  ** ARDUINO v1.8.19
  ** Copyright (C) 2022. v1.1 / Скляр Роман S-LAB
